@@ -223,7 +223,7 @@
             <!-- Bottom Section: Call to Action -->
             <div class="text-center pb-20">
               <p class="text-xl sm:text-2xl font-comfort font-medium text-golden-200 mb-8 animate-fade-in-up tracking-wide">
-                Where Premium Nutrition Meets Incredible Taste
+                Where Joy Meets Zaika
               </p>
               
               <p class="text-lg text-golden-200 mb-8 max-w-2xl mx-auto">
@@ -687,7 +687,7 @@
             </div>
             
             <a 
-              href="https://wa.me/919876543210?text=Hi! I'd like to order JoyNZaika's PowerBites. Can you please share the available flavors and pricing?"
+              href="https://wa.me/916200104757?text=Hi! I'd like to order JoyNZaika's PowerBites. Can you please share the available flavors and pricing?"
               target="_blank"
               class="flex items-center justify-center gap-3 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-600/30"
             >
@@ -700,17 +700,17 @@
         </div>
         
         <div class="flex items-center justify-center gap-8 mb-8">
-          <a href="mailto:hello@joynzaika.com" class="flex items-center gap-2 text-golden-200 hover:text-golden-400 transition-colors">
+          <a href="mailto:contact@joynzaika.com" class="flex items-center gap-2 text-golden-200 hover:text-golden-400 transition-colors">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
-            <span class="font-medium">hello@joynzaika.com</span>
+            <span class="font-medium">contact@joynzaika.com</span>
           </a>
-          <a href="tel:+919876543210" class="flex items-center gap-2 text-golden-200 hover:text-golden-400 transition-colors">
+          <a href="tel:+916200104757" class="flex items-center gap-2 text-golden-200 hover:text-golden-400 transition-colors">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
             </svg>
-            <span class="font-medium">+91 98765 43210</span>
+            <span class="font-medium">+91 6200104757</span>
           </a>
         </div>
         

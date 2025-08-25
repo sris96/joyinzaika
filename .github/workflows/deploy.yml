@@ -45,9 +45,6 @@ jobs:
         env:
           NODE_ENV: production
 
-      - name: Create CNAME file for custom domain
-        run: echo "joynzaika.com" > .output/public/CNAME
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
