@@ -18,7 +18,7 @@
         <div class="flex justify-between items-center h-20">
           <div class="flex items-center">
             <nuxt-link to="/" class="text-3xl sm:text-4xl font-brand tracking-wide">
-              <span class="text-white">JOY</span><span class="text-golden-500">IN</span><span class="text-white">ZAIKA</span>
+              <span class="text-white">JOY</span><span class="text-golden-500">N</span><span class="text-white">ZAIKA</span>
             </nuxt-link>
           </div>
           
