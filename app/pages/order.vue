@@ -121,8 +121,55 @@
 </template>
 
 <script setup>
-// Set page title
+// Enhanced SEO for order page
 useHead({
-  title: 'Online Ordering Coming Soon - JoyInZaika\'s PowerBites'
+  title: 'Order PowerBites Online - Coming Soon | WhatsApp Ordering Available | JoyInZaika',
+  meta: [
+    { 
+      name: 'description', 
+      content: 'Order JoyInZaika\'s PowerBites protein bars online. Currently accepting orders via WhatsApp. Online ordering system launching soon! Get 20g protein bars delivered in Pune.' 
+    },
+    {
+      name: 'keywords',
+      content: 'order PowerBites online, protein bars delivery Pune, WhatsApp order protein bars, buy protein bars Pune, PowerBites online ordering'
+    },
+    { property: 'og:title', content: 'Order PowerBites - Online Ordering Coming Soon | WhatsApp Available' },
+    { property: 'og:description', content: 'Order JoyInZaika\'s PowerBites via WhatsApp! Online ordering launching soon. Get premium protein bars delivered in Pune.' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: 'https://joyinzaika.srishtychandra.me/order' },
+    { property: 'twitter:title', content: 'Order PowerBites - WhatsApp Ordering Available' },
+    { property: 'twitter:description', content: 'Order premium protein bars via WhatsApp! Online system coming soon.' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://joyinzaika.srishtychandra.me/order' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        'name': 'Order PowerBites Online',
+        'description': 'Order page for JoyInZaika\'s PowerBites protein bars',
+        'breadcrumb': {
+          '@type': 'BreadcrumbList',
+          'itemListElement': [
+            {
+              '@type': 'ListItem',
+              'position': 1,
+              'name': 'Home',
+              'item': 'https://joyinzaika.srishtychandra.me/'
+            },
+            {
+              '@type': 'ListItem',
+              'position': 2,
+              'name': 'Order',
+              'item': 'https://joyinzaika.srishtychandra.me/order'
+            }
+          ]
+        }
+      })
+    }
+  ]
 })
 </script>

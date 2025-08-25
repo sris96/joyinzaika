@@ -124,7 +124,7 @@
                         <div class="relative aspect-square">
                           <img 
                             src="/power-bite-hero.jpg" 
-                            alt="PowerBites Almond Crunch Protein Bar"
+                            alt="PowerBites Premium Protein Bar - 20g Protein | All Natural Ingredients | Pune"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                           />
                           
@@ -765,8 +765,48 @@
 <script setup>
 import { onMounted } from 'vue'
 
+// Enhanced SEO for homepage
 useHead({
-  title: 'JoyInZaika\'s PowerBites - Premium Protein Bars | Fuel Your Day Naturally'
+  title: 'JoyInZaika\'s PowerBites - Premium Protein Bars Pune | 20g Protein | Order Now',
+  meta: [
+    { 
+      name: 'description', 
+      content: 'Order JoyInZaika\'s PowerBites - Pune\'s best handcrafted protein bars with 20g protein, all-natural ingredients. Made fresh by Chef Srishty. WhatsApp ordering available! Free delivery in Pune.' 
+    },
+    {
+      name: 'keywords',
+      content: 'PowerBites Pune, protein bars Pune, healthy snacks Pune, natural protein bars India, homemade protein bars, Chef Srishty, gluten-free protein bars, vegan snacks Pune, fitness food Pune, energy bars online'
+    },
+    { property: 'og:title', content: 'JoyInZaika\'s PowerBites - Premium Handcrafted Protein Bars | Pune' },
+    { property: 'og:description', content: 'Get Pune\'s best protein bars! 20g protein, all-natural ingredients, no preservatives. Made with love by Chef Srishty. Order now via WhatsApp!' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: 'https://joyinzaika.srishtychandra.me/' },
+    { property: 'twitter:title', content: 'JoyInZaika\'s PowerBites - Premium Protein Bars Pune' },
+    { property: 'twitter:description', content: '20g protein power! All-natural, handcrafted protein bars made in Pune. Order now!' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://joyinzaika.srishtychandra.me/' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        'name': 'JoyInZaika\'s PowerBites - Home',
+        'description': 'Premium handcrafted protein bars with 20g protein made in Pune',
+        'breadcrumb': {
+          '@type': 'BreadcrumbList',
+          'itemListElement': [{
+            '@type': 'ListItem',
+            'position': 1,
+            'name': 'Home',
+            'item': 'https://joyinzaika.srishtychandra.me/'
+          }]
+        }
+      })
+    }
+  ]
 })
 
 onMounted(() => {
