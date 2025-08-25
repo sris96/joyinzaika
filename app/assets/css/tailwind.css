@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&family=Yeseva+One&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-golden-500 text-white font-semibold rounded-full hover:bg-golden-600 transform transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-golden-300;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-white text-golden-600 font-semibold rounded-full border-2 border-golden-500 hover:bg-golden-50 transform transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-golden-200;
+  }
+  
+  .gradient-warm {
+    @apply bg-gradient-to-br from-warm-100 via-golden-50 to-warm-50;
+  }
+  
+  .gradient-golden {
+    @apply bg-gradient-to-r from-golden-400 to-golden-600;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-golden-500 to-warm-600;
+  }
+}
