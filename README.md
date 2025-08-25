@@ -3,7 +3,7 @@
 Official website for JoyNZaika's PowerBites - Premium Protein Bars made with love in Pune.
 
 ## 🌐 Live Site
-[https://joynzaika.srishtychandra.me](https://joynzaika.srishtychandra.me)
+[https://joynzaika.com](https://joynzaika.com)
 
 ## 🚀 Deployment
 
@@ -14,7 +14,7 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 1. **Enable GitHub Pages:**
    - Go to Settings → Pages in your GitHub repository
    - Under "Build and deployment", select "GitHub Actions" as the source
-   - The custom domain `joynzaika.srishtychandra.me` is already configured
+   - The custom domain `joynzaika.com` is already configured
 
 2. **DNS Configuration:**
    Make sure your domain has the following DNS records:
@@ -110,7 +110,7 @@ Once merged, the site will automatically deploy.
 
 ## 📧 Contact
 
-- **Website:** [joynzaika.srishtychandra.me](https://joynzaika.srishtychandra.me)
+- **Website:** [joynzaika.com](https://joynzaika.com)
 - **Email:** hello@joynzaika.com
 - **WhatsApp:** +91 98765 43210
 

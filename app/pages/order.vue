@@ -136,12 +136,12 @@ useHead({
     { property: 'og:title', content: 'Order PowerBites - Online Ordering Coming Soon | WhatsApp Available' },
     { property: 'og:description', content: 'Order JoyNZaika\'s PowerBites via WhatsApp! Online ordering launching soon. Get premium protein bars delivered in Pune.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://joynzaika.srishtychandra.me/order' },
+    { property: 'og:url', content: 'https://joynzaika.com/order' },
     { property: 'twitter:title', content: 'Order PowerBites - WhatsApp Ordering Available' },
     { property: 'twitter:description', content: 'Order premium protein bars via WhatsApp! Online system coming soon.' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://joynzaika.srishtychandra.me/order' }
+    { rel: 'canonical', href: 'https://joynzaika.com/order' }
   ],
   script: [
     {
@@ -158,13 +158,13 @@ useHead({
               '@type': 'ListItem',
               'position': 1,
               'name': 'Home',
-              'item': 'https://joynzaika.srishtychandra.me/'
+              'item': 'https://joynzaika.com/'
             },
             {
               '@type': 'ListItem',
               'position': 2,
               'name': 'Order',
-              'item': 'https://joynzaika.srishtychandra.me/order'
+              'item': 'https://joynzaika.com/order'
             }
           ]
         }
