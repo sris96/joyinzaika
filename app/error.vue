@@ -103,7 +103,7 @@ const props = defineProps({
 
 // Set page title
 useHead({
-  title: `Error ${props.error?.statusCode || ''} - JoyInZaika's PowerBites`
+  title: `Error ${props.error?.statusCode || ''} - JoyNZaika's PowerBites`
 })
 
 // Handle error - either clear error or reload

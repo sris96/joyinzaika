@@ -46,7 +46,7 @@ jobs:
           NODE_ENV: production
 
       - name: Create CNAME file for custom domain
-        run: echo "joyinzaika.srishtychandra.me" > .output/public/CNAME
+        run: echo "joynzaika.srishtychandra.me" > .output/public/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -57,7 +57,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://joyinzaika.srishtychandra.me
+      url: https://joynzaika.srishtychandra.me
     runs-on: ubuntu-latest
     needs: build
     steps:

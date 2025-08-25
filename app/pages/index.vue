@@ -123,7 +123,7 @@
                         <!-- Main Product Image -->
                         <div class="relative aspect-square">
                           <img 
-                            src="/power-bite-hero.jpg" 
+                            :src="heroImage" 
                             alt="PowerBites Premium Protein Bar - 20g Protein | All Natural Ingredients | Pune"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                           />
@@ -475,7 +475,7 @@
               <span v-for="i in 5" :key="i" class="text-2xl text-golden-400 drop-shadow-lg">⭐</span>
             </div>
             <p class="text-gray-300 mb-6 relative z-10 italic font-light">
-              Finally! A protein bar that doesn't taste like cardboard. JoyInZaika's PowerBites are my new gym bag essential. The chocolate chips are a game-changer!
+              Finally! A protein bar that doesn't taste like cardboard. JoyNZaika's PowerBites are my new gym bag essential. The chocolate chips are a game-changer!
             </p>
             <div class="flex items-center gap-4">
               <div class="w-12 h-12 bg-gradient-to-br from-golden-400 to-golden-600 rounded-full border-2 border-golden-400/50 shadow-lg"></div>
@@ -560,7 +560,7 @@
               </blockquote>
               
               <p class="text-gray-400 mb-8 leading-relaxed">
-                What began as a young chef's passion for creating nutritious treats has blossomed into JoyInZaika's PowerBites. Srishty's journey from her home kitchen in Pune to creating these beloved protein bars is rooted in genuine care and the joy of seeing others enjoy wholesome, delicious food. Each bar carries the warmth and innovation that made her family and friends fall in love with her creations.
+                What began as a young chef's passion for creating nutritious treats has blossomed into JoyNZaika's PowerBites. Srishty's journey from her home kitchen in Pune to creating these beloved protein bars is rooted in genuine care and the joy of seeing others enjoy wholesome, delicious food. Each bar carries the warmth and innovation that made her family and friends fall in love with her creations.
               </p>
               
               <div class="grid grid-cols-2 gap-6">
@@ -687,7 +687,7 @@
             </div>
             
             <a 
-              href="https://wa.me/919876543210?text=Hi! I'd like to order JoyInZaika's PowerBites. Can you please share the available flavors and pricing?"
+              href="https://wa.me/919876543210?text=Hi! I'd like to order JoyNZaika's PowerBites. Can you please share the available flavors and pricing?"
               target="_blank"
               class="flex items-center justify-center gap-3 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-600/30"
             >
@@ -700,11 +700,11 @@
         </div>
         
         <div class="flex items-center justify-center gap-8 mb-8">
-          <a href="mailto:hello@joyinzaika.com" class="flex items-center gap-2 text-golden-200 hover:text-golden-400 transition-colors">
+          <a href="mailto:hello@joynzaika.com" class="flex items-center gap-2 text-golden-200 hover:text-golden-400 transition-colors">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
-            <span class="font-medium">hello@joyinzaika.com</span>
+            <span class="font-medium">hello@joynzaika.com</span>
           </a>
           <a href="tel:+919876543210" class="flex items-center gap-2 text-golden-200 hover:text-golden-400 transition-colors">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -753,7 +753,7 @@
           </div>
           <div class="border-t border-gray-800 pt-8 w-full">
             <p class="text-gray-500 text-sm">
-              © 2024 JoyInZaika. All rights reserved. | Made with 💛 for health enthusiasts
+              © 2024 JoyNZaika. All rights reserved. | Made with 💛 for health enthusiasts
             </p>
           </div>
         </div>
@@ -765,27 +765,30 @@
 <script setup>
 import { onMounted } from 'vue'
 
+// Image path for proper Nuxt handling
+const heroImage = '/power-bite-hero.jpg'
+
 // Enhanced SEO for homepage
 useHead({
-  title: 'JoyInZaika\'s PowerBites - Premium Protein Bars Pune | 20g Protein | Order Now',
+  title: 'JoyNZaika\'s PowerBites - Premium Protein Bars Pune | 20g Protein | Order Now',
   meta: [
     { 
       name: 'description', 
-      content: 'Order JoyInZaika\'s PowerBites - Pune\'s best handcrafted protein bars with 20g protein, all-natural ingredients. Made fresh by Chef Srishty. WhatsApp ordering available! Free delivery in Pune.' 
+      content: 'Order JoyNZaika\'s PowerBites - Pune\'s best handcrafted protein bars with 20g protein, all-natural ingredients. Made fresh by Chef Srishty. WhatsApp ordering available! Free delivery in Pune.' 
     },
     {
       name: 'keywords',
       content: 'PowerBites Pune, protein bars Pune, healthy snacks Pune, natural protein bars India, homemade protein bars, Chef Srishty, gluten-free protein bars, vegan snacks Pune, fitness food Pune, energy bars online'
     },
-    { property: 'og:title', content: 'JoyInZaika\'s PowerBites - Premium Handcrafted Protein Bars | Pune' },
+    { property: 'og:title', content: 'JoyNZaika\'s PowerBites - Premium Handcrafted Protein Bars | Pune' },
     { property: 'og:description', content: 'Get Pune\'s best protein bars! 20g protein, all-natural ingredients, no preservatives. Made with love by Chef Srishty. Order now via WhatsApp!' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://joyinzaika.srishtychandra.me/' },
-    { property: 'twitter:title', content: 'JoyInZaika\'s PowerBites - Premium Protein Bars Pune' },
+    { property: 'og:url', content: 'https://joynzaika.srishtychandra.me/' },
+    { property: 'twitter:title', content: 'JoyNZaika\'s PowerBites - Premium Protein Bars Pune' },
     { property: 'twitter:description', content: '20g protein power! All-natural, handcrafted protein bars made in Pune. Order now!' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://joyinzaika.srishtychandra.me/' }
+    { rel: 'canonical', href: 'https://joynzaika.srishtychandra.me/' }
   ],
   script: [
     {
@@ -793,7 +796,7 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        'name': 'JoyInZaika\'s PowerBites - Home',
+        'name': 'JoyNZaika\'s PowerBites - Home',
         'description': 'Premium handcrafted protein bars with 20g protein made in Pune',
         'breadcrumb': {
           '@type': 'BreadcrumbList',
@@ -801,7 +804,7 @@ useHead({
             '@type': 'ListItem',
             'position': 1,
             'name': 'Home',
-            'item': 'https://joyinzaika.srishtychandra.me/'
+            'item': 'https://joynzaika.srishtychandra.me/'
           }]
         }
       })

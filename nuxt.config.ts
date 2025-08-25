@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     head: {
-      title: 'JoyInZaika\'s PowerBites - Premium Protein Bars | Pune\'s Best Healthy Snacks',
+      title: 'JoyNZaika\'s PowerBites - Premium Protein Bars | Pune\'s Best Healthy Snacks',
       htmlAttrs: {
         lang: 'en'
       },
@@ -23,28 +23,28 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         
         // Primary Meta Tags
-        { name: 'title', content: 'JoyInZaika\'s PowerBites - Premium Protein Bars | Pune\'s Best Healthy Snacks' },
-        { name: 'description', content: 'Discover JoyInZaika\'s PowerBites - Pune\'s premium handcrafted protein bars with 20g protein, all-natural ingredients. Made by Chef Srishty with love. Order via WhatsApp!' },
-        { name: 'keywords', content: 'PowerBites, protein bars Pune, healthy snacks Pune, natural protein bars, fitness food India, energy bars, JoyInZaika, Chef Srishty, homemade protein bars, gluten-free snacks, vegan protein bars' },
-        { name: 'author', content: 'JoyInZaika - Chef Srishty Chandra' },
+        { name: 'title', content: 'JoyNZaika\'s PowerBites - Premium Protein Bars | Pune\'s Best Healthy Snacks' },
+        { name: 'description', content: 'Discover JoyNZaika\'s PowerBites - Pune\'s premium handcrafted protein bars with 20g protein, all-natural ingredients. Made by Chef Srishty with love. Order via WhatsApp!' },
+        { name: 'keywords', content: 'PowerBites, protein bars Pune, healthy snacks Pune, natural protein bars, fitness food India, energy bars, JoyNZaika, Chef Srishty, homemade protein bars, gluten-free snacks, vegan protein bars' },
+        { name: 'author', content: 'JoyNZaika - Chef Srishty Chandra' },
         { name: 'robots', content: 'index, follow' },
         { name: 'language', content: 'English' },
         
         // Open Graph / Facebook
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://joyinzaika.srishtychandra.me/' },
-        { property: 'og:title', content: 'JoyInZaika\'s PowerBites - Premium Protein Bars | Pune' },
+        { property: 'og:url', content: 'https://joynzaika.srishtychandra.me/' },
+        { property: 'og:title', content: 'JoyNZaika\'s PowerBites - Premium Protein Bars | Pune' },
         { property: 'og:description', content: 'Pune\'s premium handcrafted protein bars with 20g protein & all-natural ingredients. Made with love by Chef Srishty. Order now via WhatsApp!' },
-        { property: 'og:image', content: 'https://joyinzaika.srishtychandra.me/power-bite-hero.jpg' },
-        { property: 'og:site_name', content: 'JoyInZaika\'s PowerBites' },
+        { property: 'og:image', content: 'https://joynzaika.srishtychandra.me/power-bite-hero.jpg' },
+        { property: 'og:site_name', content: 'JoyNZaika\'s PowerBites' },
         { property: 'og:locale', content: 'en_IN' },
         
         // Twitter
         { property: 'twitter:card', content: 'summary_large_image' },
-        { property: 'twitter:url', content: 'https://joyinzaika.srishtychandra.me/' },
-        { property: 'twitter:title', content: 'JoyInZaika\'s PowerBites - Premium Protein Bars' },
+        { property: 'twitter:url', content: 'https://joynzaika.srishtychandra.me/' },
+        { property: 'twitter:title', content: 'JoyNZaika\'s PowerBites - Premium Protein Bars' },
         { property: 'twitter:description', content: 'Pune\'s premium handcrafted protein bars with 20g protein. Made with love by Chef Srishty. Order now!' },
-        { property: 'twitter:image', content: 'https://joyinzaika.srishtychandra.me/power-bite-hero.jpg' },
+        { property: 'twitter:image', content: 'https://joynzaika.srishtychandra.me/power-bite-hero.jpg' },
         
         // Geo tags for local SEO
         { name: 'geo.region', content: 'IN-MH' },
@@ -54,8 +54,8 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://joyinzaika.srishtychandra.me/' },
-        { rel: 'alternate', type: 'application/rss+xml', title: 'JoyInZaika\'s PowerBites', href: '/sitemap.xml' }
+        { rel: 'canonical', href: 'https://joynzaika.srishtychandra.me/' },
+        { rel: 'alternate', type: 'application/rss+xml', title: 'JoyNZaika\'s PowerBites', href: '/sitemap.xml' }
       ],
       script: [
         {
@@ -63,12 +63,12 @@ export default defineNuxtConfig({
           innerHTML: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
-            'name': 'JoyInZaika\'s PowerBites',
-            'image': 'https://joyinzaika.srishtychandra.me/power-bite-hero.jpg',
-            '@id': 'https://joyinzaika.srishtychandra.me',
-            'url': 'https://joyinzaika.srishtychandra.me',
+            'name': 'JoyNZaika\'s PowerBites',
+            'image': 'https://joynzaika.srishtychandra.me/power-bite-hero.jpg',
+            '@id': 'https://joynzaika.srishtychandra.me',
+            'url': 'https://joynzaika.srishtychandra.me',
             'telephone': '+919876543210',
-            'email': 'hello@joyinzaika.com',
+            'email': 'hello@joynzaika.com',
             'address': {
               '@type': 'PostalAddress',
               'addressLocality': 'Pune',
@@ -87,13 +87,13 @@ export default defineNuxtConfig({
               'closes': '21:00'
             },
             'sameAs': [
-              'https://www.facebook.com/joyinzaika',
-              'https://www.instagram.com/joyinzaika',
-              'https://twitter.com/joyinzaika'
+              'https://www.facebook.com/joynzaika',
+              'https://www.instagram.com/joynzaika',
+              'https://twitter.com/joynzaika'
             ],
             'priceRange': '₹₹',
             'servesCuisine': 'Healthy Snacks',
-            'menu': 'https://joyinzaika.srishtychandra.me/#product',
+            'menu': 'https://joynzaika.srishtychandra.me/#product',
             'acceptsReservations': 'False',
             'founder': {
               '@type': 'Person',
@@ -108,11 +108,11 @@ export default defineNuxtConfig({
             '@context': 'https://schema.org/',
             '@type': 'Product',
             'name': 'PowerBites Protein Bars',
-            'image': ['https://joyinzaika.srishtychandra.me/power-bite-hero.jpg'],
+            'image': ['https://joynzaika.srishtychandra.me/power-bite-hero.jpg'],
             'description': 'Premium handcrafted protein bars with 20g protein, all-natural ingredients, no artificial preservatives.',
             'brand': {
               '@type': 'Brand',
-              'name': 'JoyInZaika'
+              'name': 'JoyNZaika'
             },
             'nutrition': {
               '@type': 'NutritionInformation',
@@ -136,7 +136,7 @@ export default defineNuxtConfig({
               'availability': 'https://schema.org/InStock',
               'seller': {
                 '@type': 'Organization',
-                'name': 'JoyInZaika'
+                'name': 'JoyNZaika'
               }
             }
           })

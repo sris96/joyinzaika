@@ -26,7 +26,7 @@
             COMING SOON!
           </h2>
           <p class="text-lg text-gray-300 max-w-lg mx-auto leading-relaxed">
-            We're working hard to bring you the best online ordering experience for JoyInZaika's PowerBites.
+            We're working hard to bring you the best online ordering experience for JoyNZaika's PowerBites.
           </p>
         </div>
 
@@ -39,7 +39,7 @@
           </p>
           
           <a 
-            href="https://wa.me/919876543210?text=Hi! I'd like to order JoyInZaika's PowerBites. Can you please share the available flavors and pricing?"
+            href="https://wa.me/919876543210?text=Hi! I'd like to order JoyNZaika's PowerBites. Can you please share the available flavors and pricing?"
             target="_blank"
             class="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold text-lg rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-600/30"
           >
@@ -123,25 +123,25 @@
 <script setup>
 // Enhanced SEO for order page
 useHead({
-  title: 'Order PowerBites Online - Coming Soon | WhatsApp Ordering Available | JoyInZaika',
+  title: 'Order PowerBites Online - Coming Soon | WhatsApp Ordering Available | JoyNZaika',
   meta: [
     { 
       name: 'description', 
-      content: 'Order JoyInZaika\'s PowerBites protein bars online. Currently accepting orders via WhatsApp. Online ordering system launching soon! Get 20g protein bars delivered in Pune.' 
+      content: 'Order JoyNZaika\'s PowerBites protein bars online. Currently accepting orders via WhatsApp. Online ordering system launching soon! Get 20g protein bars delivered in Pune.' 
     },
     {
       name: 'keywords',
       content: 'order PowerBites online, protein bars delivery Pune, WhatsApp order protein bars, buy protein bars Pune, PowerBites online ordering'
     },
     { property: 'og:title', content: 'Order PowerBites - Online Ordering Coming Soon | WhatsApp Available' },
-    { property: 'og:description', content: 'Order JoyInZaika\'s PowerBites via WhatsApp! Online ordering launching soon. Get premium protein bars delivered in Pune.' },
+    { property: 'og:description', content: 'Order JoyNZaika\'s PowerBites via WhatsApp! Online ordering launching soon. Get premium protein bars delivered in Pune.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://joyinzaika.srishtychandra.me/order' },
+    { property: 'og:url', content: 'https://joynzaika.srishtychandra.me/order' },
     { property: 'twitter:title', content: 'Order PowerBites - WhatsApp Ordering Available' },
     { property: 'twitter:description', content: 'Order premium protein bars via WhatsApp! Online system coming soon.' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://joyinzaika.srishtychandra.me/order' }
+    { rel: 'canonical', href: 'https://joynzaika.srishtychandra.me/order' }
   ],
   script: [
     {
@@ -150,7 +150,7 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         'name': 'Order PowerBites Online',
-        'description': 'Order page for JoyInZaika\'s PowerBites protein bars',
+        'description': 'Order page for JoyNZaika\'s PowerBites protein bars',
         'breadcrumb': {
           '@type': 'BreadcrumbList',
           'itemListElement': [
@@ -158,13 +158,13 @@ useHead({
               '@type': 'ListItem',
               'position': 1,
               'name': 'Home',
-              'item': 'https://joyinzaika.srishtychandra.me/'
+              'item': 'https://joynzaika.srishtychandra.me/'
             },
             {
               '@type': 'ListItem',
               'position': 2,
               'name': 'Order',
-              'item': 'https://joyinzaika.srishtychandra.me/order'
+              'item': 'https://joynzaika.srishtychandra.me/order'
             }
           ]
         }

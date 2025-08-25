@@ -1,9 +1,9 @@
-# JoyInZaika's PowerBites Website
+# JoyNZaika's PowerBites Website
 
-Official website for JoyInZaika's PowerBites - Premium Protein Bars made with love in Pune.
+Official website for JoyNZaika's PowerBites - Premium Protein Bars made with love in Pune.
 
 ## 🌐 Live Site
-[https://joyinzaika.srishtychandra.me](https://joyinzaika.srishtychandra.me)
+[https://joynzaika.srishtychandra.me](https://joynzaika.srishtychandra.me)
 
 ## 🚀 Deployment
 
@@ -14,11 +14,11 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 1. **Enable GitHub Pages:**
    - Go to Settings → Pages in your GitHub repository
    - Under "Build and deployment", select "GitHub Actions" as the source
-   - The custom domain `joyinzaika.srishtychandra.me` is already configured
+   - The custom domain `joynzaika.srishtychandra.me` is already configured
 
 2. **DNS Configuration:**
    Make sure your domain has the following DNS records:
-   - CNAME record: `joyinzaika` → `[your-github-username].github.io`
+   - CNAME record: `joynzaika` → `[your-github-username].github.io`
    - OR if using apex domain:
      - A records pointing to GitHub Pages IPs:
        - `185.199.108.153`
@@ -110,10 +110,10 @@ Once merged, the site will automatically deploy.
 
 ## 📧 Contact
 
-- **Website:** [joyinzaika.srishtychandra.me](https://joyinzaika.srishtychandra.me)
-- **Email:** hello@joyinzaika.com
+- **Website:** [joynzaika.srishtychandra.me](https://joynzaika.srishtychandra.me)
+- **Email:** hello@joynzaika.com
 - **WhatsApp:** +91 98765 43210
 
 ---
 
-Made with 💛 by JoyInZaika Team
+Made with 💛 by JoyNZaika Team
