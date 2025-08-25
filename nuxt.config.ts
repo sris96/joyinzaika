@@ -8,16 +8,13 @@ export default defineNuxtConfig({
     configPath: 'tailwind.config.js'
   },
   nitro: {
-    preset: 'static',
-    prerender: {
-      routes: ['/']
-    }
+    preset: 'static'
   },
-  ssr: true,
+  ssr: false,
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/joyinzaika/' : '/',
+    baseURL: '/',
     head: {
-      title: 'JoyInZaika PowerBites - Premium Protein Bars | Fuel Your Day Naturally',
+      title: 'JoyInZaika\'s PowerBites - Premium Protein Bars | Fuel Your Day Naturally',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
